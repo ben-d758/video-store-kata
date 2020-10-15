@@ -7,6 +7,11 @@ class VideoStore
     end
 
     def statement_builder
-        return @customer_name
+        <<~STATEMENT
+            Welcome #{@customer_name}
+            You have no rentals
+            You owe £0.0
+            You gained 0 frequent renter points
+        STATEMENT
     end
 end
