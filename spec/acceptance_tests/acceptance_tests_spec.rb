@@ -7,7 +7,7 @@ RSpec.describe 'given a statement is requested by Dave Richards' do
             video_store = VideoStore.new(customer_name: "Dave Richards", movies: [])
             expected_statement = <<~STATEMENT 
                 Welcome Dave Richards
-                You have 0 rentals
+                You have no rentals
                 You owe £0.0
                 You gained 0 frequent renter points
             STATEMENT
