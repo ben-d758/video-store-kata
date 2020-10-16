@@ -35,6 +35,7 @@ class VideoStore
 end
 
 # dynamically include cost of movie
+# see notes in notebook for guidance
 
 # MovieTitles = {
 #     RegularMovies => ["Transformers","Triple Frontier", "The Expert Coder"]
